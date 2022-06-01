@@ -1,4 +1,4 @@
-# Organizando os geodados no Mapbox
+# 🎲 Organizando os geodados no Mapbox
 
 [#criando-um-novo-mapa-no-mapbox](organizando-os-geodados-no-mapbox.md#criando-um-novo-mapa-no-mapbox "mention")Antes de iniciar o trabalho com o Mapbox, vale a pena relembrar algumas boas práticas ao trabalhar com dados geográficos, que irão ajudar no desenvolvimento do seu projeto.
 
@@ -6,11 +6,11 @@
 * Crie uma pasta diferente para cada fonte de dado;
 * Se possível, padronize o formato e a projeção dos geodados.&#x20;
 
-Atualmente, o Mapbox Studio aceita o formatos GeoTIFF para arquivos em malha (raster) e diversos outros para dados vetoriais (MBTiles, KML, GPX, GeoJSON, Shapefile zipado ou tabelas CSV). Neste segundo caso, recomendamos especialmente o uso do formato GeoJSON, ao invés do tradicional Shapefile, para usos na web. Você pode usar uma solução online e de código aberto como o [Mapshaper](https://mapshaper.org) para fazer a conversão de formatos facilmente.
+Atualmente, o Mapbox Studio aceita o formatos GeoTIFF para arquivos em malha (raster) e diversos outros para dados vetoriais (MBTiles, KML, GPX, GeoJSON, Shapefile zipado ou tabelas CSV). Neste segundo caso, recomendamos especialmente o uso do formato GeoJSON, ao invés do tradicional Shapefile, para usos na web. Você pode usar uma solução online e de código aberto como o [Mapshaper](https://mapshaper.org/) para fazer a conversão de formatos facilmente.
 
 ### Criando um novo mapa no Mapbox
 
-Se você já organizou seus dados localmente e criou uma conta no [Mapbox](https://www.mapbox.com), vá até o Mapbox Studio, que é como um “Photoshop para mapas”, segundo o site oficial da empresa.&#x20;
+Se você já organizou seus dados localmente e criou uma conta no [Mapbox](https://www.mapbox.com/), vá até o Mapbox Studio, que é como um “Photoshop para mapas”, segundo o site oficial da empresa.&#x20;
 
 Para começar, crie um estilo novo no botão azul "**New Style**".&#x20;
 
