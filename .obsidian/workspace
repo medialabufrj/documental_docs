@@ -1,0 +1,100 @@
+{
+  "main": {
+    "id": "313784e3bd984425",
+    "type": "split",
+    "children": [
+      {
+        "id": "557cb4792cecac8e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "scrollytelling.md.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "45e5827c2d448a1e",
+    "type": "split",
+    "children": [
+      {
+        "id": "5c6fc5703f948526",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2e95b57cc79530be",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "61901f32f9d40684",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "97c50e19fdb0d057",
+    "type": "split",
+    "children": [
+      {
+        "id": "bf0c5d92cf5264dd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "27b3d3d49d56513f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "scrollytelling.md.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "557cb4792cecac8e",
+  "lastOpenFiles": [
+    "scrollytelling.md.md",
+    "SUMMARY.md",
+    "README.md",
+    "publicando-historia.md.md",
+    "organizando-os-geodados-no-mapbox.md",
+    "configuracao-da-plataforma.md",
+    "como-colaborar.md",
+    "recursos-uteis.md"
+  ]
+}
