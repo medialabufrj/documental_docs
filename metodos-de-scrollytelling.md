@@ -22,15 +22,21 @@ Por fim, na resolução, o ato final da estrutura narrativa em três etapas, che
 
 Como Roth, destaca muitos profissionais consideram este esquema super-simplificado e adotam estruturas não-lineares ou paralelas para contar histórias. De todo modo, ainda assim, estes elementos e estruturas básicas podem estimular novas práticas e abordagens para contar histórias com mapas.
 
-### Definição do mapa base
+### Definição da camada base
 
-O mapa base serve como a principal camada de localização espacial, a partir da qual serão posicionadas outras camadas de informações ou dados. Esta camada base pode ser uma imagem de satélite ou marcações vetoriais. No primeiro caso, temos um efeito mais realista, que visa transmistir a sensação de deslocamento em um espaço real. As imagens de satélite como a camada base de um mapa também permitem que objetos e entidades (prédios, marcas de desmatamento ou cidades, por exemplo) apareçam no mapa "tal como" são na realidade. Por outro lado, um mapa base vetorial abstrai qualquer informação visual desnecessária para representar apenas alguns elementos. Deste modo, esta abordagem é muitas vezes utilizada para visualizações de dados geográficos, uma vez que com a camada vetorial podemos escolher o que será exibido (como fronteiras, nomes de rua, etc).
+A camada base serve como a principal camada de localização espacial, a partir da qual serão posicionadas outras camadas de informações ou dados. Esta camada base pode ser uma imagem de satélite ou marcações vetoriais. No primeiro caso, temos um efeito mais realista, que visa transmistir a sensação de deslocamento em um espaço real. As imagens de satélite como a camada base de um mapa também permitem que objetos e entidades (prédios, marcas de desmatamento ou cidades, por exemplo) apareçam no mapa "tal como" são na realidade. 
+
+![Base com imagem de satélite](.gitbook/assets/satelite.png)
+
+Por outro lado, um mapa base vetorial abstrai qualquer informação visual desnecessária para representar apenas alguns elementos. Deste modo, esta abordagem é muitas vezes utilizada para visualizações de dados geográficos, uma vez que com a camada vetorial podemos escolher o que será exibido (como fronteiras, nomes de rua, etc).
+
+![Base com camada vetorial](.gitbook/assets/vetor.png)
 
 ### Movimentos de câmera sobre mapas
 
 #### Zoom in/out
 
-O movimento de aproximar ou afastar a visão sobre o mapa ajuda as narrativas a alternarem entre uma dimensão "macro" (uma visão do globo terrestre para situar geograficamente o leitor ou um mapa cloroplético, por exemplo) e "micro" (pontos no mapa relacionados a fotos ou uma subdivisão fronteiriça como os municípios dentro de um estado).
+O movimento de aproximar ou afastar a visão sobre o mapa ajuda as narrativas a alternarem entre uma dimensão "macro" (uma visão mais ampla para situar geograficamente o leitor ou um mapa cloroplético, por exemplo) e "micro" (pontos no mapa relacionados a fotos ou uma subdivisão fronteiriça como os municípios dentro de um estado). O movimento de "zoom in" pode ser uma estratégia para falar sobre algo em específico depois abordar questões mais gerais (deducação), enquanto o contrário "zoom out" permite generalizar ou contrapor uma experiência em específica com uma visão mais ampla.
 
 #### Pan
 
