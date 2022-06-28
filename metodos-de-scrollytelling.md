@@ -34,13 +34,23 @@ Por outro lado, um mapa base vetorial abstrai qualquer informação visual desne
 
 ### Movimentos de câmera sobre mapas
 
-#### Zoom in/out
+#### Aproximar ou afastar (Zoom in/out)
 
-O movimento de aproximar ou afastar a visão sobre o mapa ajuda as narrativas a alternarem entre uma dimensão "macro" (uma visão mais ampla para situar geograficamente o leitor ou um mapa cloroplético, por exemplo) e "micro" (pontos no mapa relacionados a fotos ou uma subdivisão fronteiriça como os municípios dentro de um estado). O movimento de "zoom in" pode ser uma estratégia para falar sobre algo em específico depois abordar questões mais gerais (deducação), enquanto o contrário "zoom out" permite generalizar ou contrapor uma experiência em específica com uma visão mais ampla.
+O movimento de aproximar ou afastar a visão sobre o mapa ajuda as narrativas a alternarem entre uma dimensão "macro" (uma visão mais ampla para situar geograficamente o leitor ou um mapa cloroplético, por exemplo) e "micro" (pontos no mapa relacionados a fotos ou uma subdivisão fronteiriça como os municípios dentro de um estado). O movimento de "zoom in" pode ser uma estratégia para abordar algo mais específico depois de tratar questões mais gerais (dedução), enquanto o contrário "zoom out" permite generalizar (indução) ou contrapor uma experiência em específica com uma visão mais ampla.
 
-#### Pan
+#### Panorâmica (panning)
+
+Este movimento permite "passear" por um mapa. É útil para detalhar trajetórias ou tratar de uma sequência de acontecimentos/localizações relevantes para a narrativa.
+
+
+#### Bearing e pitching
+
+O [Mapbox oferece opções de controle de câmera](https://docs.mapbox.com/mapbox-gl-js/example/set-perspective/) que permitem também ajustar a altura e posição da perspectiva do mapa. Este recurso dá a impressão de uma navegação em 3 dimensões e é útil para buscar reproduzir uma determinada visão (como a de uma foto) no mapa, por exemplo.
 
 #### Sobreposição de imagens
+
+O Documental também dá suporte a comparações de imagens no estilo antes/depois. Este recurso é útil especialmente para mostrar transformações temporais em um dado território, permitindo ao visitante comparar facilmente duas imagens. Neste caso, os mapas devem ser salvos como imagens e enviados usando a opção 'Article > Compare'.
+
 
 ## Referências
 
