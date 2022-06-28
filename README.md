@@ -39,4 +39,8 @@ Qualquer pessoa interessada pode ler a documentação sobre a ferramenta, porém
 ### Créditos 
 Solicitamos que projetos que façam uso da plataforma incluam uma menção ao nosso site, como forma de apoiar o desenvolvimento da plataforma.
 
-O desenvolvimento inicial do Documental.xyz foi feito por [Marlus Araújo](https://github.com/sulram)
+#### Desenvolvimento de software
+[Marlus Araújo](https://github.com/sulram)
+
+#### Documentação
+[Adriano Belisario](https://github.com/belisards)
