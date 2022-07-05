@@ -16,7 +16,7 @@ Para rodar a plataforma em seu próprio computador, você pode instalar as vers�
 As versões gratuitas do Statamic e Mapbox servem para a maioria dos casos. 
 
 
-|                       | Statamic                                                                                                                          | Mapbox                                                                                                             |
+|        Características             | Statamic                                                                                                                          | Mapbox                                                                                                             |
 | --------------------- | --------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
 | Plano gratuito        | Limitado a 1 idioma e 1 usuário administrador.                                                                                    | Até 50 mil visualizações do mapa por mês.                                                                          |
 | Valor do plano pago   | A partir de 259 dólares por projeto, com atualizações incluídas por um ano. Após o período, é cobrado 59 USD/ano por atualização. | Preços a partir de 50 dólares por mês ou sob demanda, a depender dos serviços utilizados ou quantidade de acessos. |
