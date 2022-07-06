@@ -12,7 +12,9 @@ Aqui, precisaremos dos códigos geradas na [etapa anterior](organizando-os-geoda
 
 Depois disso, será necessário definir qual será a visualização inicial ou "ponto de partida" no mapa. Você pode definir também uma localização (latitude e longitude, `Mapbox start lat` e `Mapbox Access Token`, respectivamente) e um nível de zoom para sua visualização.
 
+Confira abaixo um exemplo real de como é a visualização de três valores diferente para o zoom, com imagens do projeto [Territórios de Exceção](./).
 
+![](.gitbook/assets/3zooms.png)
 
 ### Content
 
@@ -26,13 +28,25 @@ Para a construção de narrativas baseadas em mapas, a mais importante delas é 
 
 ### Cover
 
+Este elemento permite a inclusão de imagens, vídeos ou títulos ocupando toda largura da tela. Como o nome indica, é útil para fazer "capas", que servem para apresentar as seções ou capítulos (_chapters_) do seu trabalho.
+
+É possível incluir, por exemplo, uma foto ou vídeo de impacto como imagem de fundo (_background_) e inserir campos de texto. Em `Chapter intro`, existem campos para definição de título e subtítulo. Textos mais longos podem ser incluídos como `Texto block`. Ambos irão aparecer sobrepostos na imagem de fundo, se definida.&#x20;
+
+Para melhorar a legibilidade do texto, é possível também definir uma nível de transparência para a imagem, no campo `Overlay Opacity`.
+
 ![](.gitbook/assets/cover.png)
 
 #### Article
 
+O elemento `Article` permite a inclusão de textos corridos, que aparecem centralizados na tela sobre um fundo branco. O Statamic oferece alguns recursos de formatação para hierarquização de títulos, negrito, itálico, listagens e enumerações, citações, links e códigos.
+
 ![](.gitbook/assets/article.png)
 
 #### Video gallery
+
+Este recurso permite a incorporação (_embed)_ de fontes externas de vídeos, como o YouTube e o Vimeo. É possível definir um título geral para a galeria e um ou mais vídeos para serem exibidos, cada um pode ter também seu próprio título.
+
+Na visualização, os vídeos aparecem centralizados, ocupando toda largura da tela, e podem ser reproduzidos na própria página.
 
 ![](.gitbook/assets/videogallery.png)
 
