@@ -6,5 +6,4 @@ description: Tutoriais, documentações e e conteúdos úteis.
 
 [Statamic.dev](https://statamic.dev) - Documentação técnica da ferramenta
 
-[Geodados: uma introdução gentil](https://gis.escoladedados.org) - Ebook da Escola de Dados
-
+[Geodados: uma introdução gentil](https://gis.escoladedados.org) - Ebook da Escola de Dados sobre geodados e QGIS
