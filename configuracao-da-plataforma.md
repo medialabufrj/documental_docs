@@ -18,6 +18,8 @@ O site [statamic.dev/installing](https://statamic.dev/installing) lista diversas
 
 ## Instalando o Documental no Ubuntu 20.04
 
+Você pode usar uma solução de virtualização como o [Multipass](https://multipass.run) para rodar o seu site localmente. Confira abaixo as instruções&#x20;
+
 ### Instalando dependências (PHP 8.1 e utilitários)
 
 `sudo apt install software-properties-common`&#x20;
@@ -43,3 +45,33 @@ O site [statamic.dev/installing](https://statamic.dev/installing) lista diversas
 ### Instalando Statamic com Documental
 
 `statamic new documental-dev rafaelbantu/documental`
+
+Durante o processo de instalação, selecione a opção padrão ("yes") ao visualizar a pergunta:
+
+**Starter kit not found on Statamic Marketplace! Install unlisted starter kit? (yes/no) \[yes]**
+
+No final do processo de instalação, criei seu usuário e senha como poderes de administração no site recém configurado.
+
+Se tudo correu bem, você deve ver a seguinte mensagem no final: **"\[✔] Statamic has been successfully installed into the documental-dev directory."**
+
+### **Instanciando o Documental**&#x20;
+
+Depois da instalação, entre no diretório recém-criado (_documental-dev_) e rode o seguinte comando:
+
+_php artisan serve_&#x20;
+
+Se você está usando o Multipass, adicione o parâmetro _`--host=[ip]`_ onde \[IP] é o endereço da máquina virtual (confira rodando fora da máquina virtual o comando `multipass list`).
+
+Finalmente, acesse o navegador usando a URL com IP e a porta 8000, por exemplo:
+
+{% embed url="http://10.49.22.64:8000" %}
+
+{% embed url="http://127.0.0.1:8000" %}
+
+Para acessar o painel de administração acesse o subdiretório **/cp** e insira as credenciais adequadas.
+
+### **Customizando o Documental**&#x20;
+
+* Blueprints
+* Layouts
+* Stories
