@@ -23,3 +23,27 @@ Consulte também as instruções para instalação do [Composer](https://getcomp
 Se você pretende disponibilizar a plataforma publicamente, além de um domínio na Internet, você vai precisar de um servidor. A melhor solução para o Statamic é contratar um servidor virtual privado (VPS) e a documentação oficial indica alguns serviços que facilitam o processo de _deploy_ de uma nova instância do Statamic, como o [Laravel Forge](https://forge.laravel.com/), o [Ploi.io](https://ploi.io/) ou o [ServerPilot](https://serverpilot.io/).
 
 O site [statamic.dev/installing](https://statamic.dev/installing) lista diversas formas de instalação do Statamic, entre elas Docker, aplicação Laravel, sevidores Ubuntu ou instalações locais em Windows, MacOS ou Linux.&#x20;
+
+
+
+
+
+## Instalando Documental em Ubuntu 20.04
+
+### Instalando dependências (PHP 8.1 e utilitários)
+
+sudo apt install software-properties-common sudo add-apt-repository ppa:ondrej/php sudo apt-get install php8.1-mbstring php8.1-xml php8.1-gd php8.1 unzip php8.1-curl sudo update-alternatives --set php /usr/bin/php8.1
+
+### Instalando Composer
+
+curl -sS https://getcomposer.org/installer |php sudo mv composer.phar /usr/local/bin/composer
+
+### Instalando Statamic CLI
+
+composer global require statamic/cli export PATH=${PATH}:\~/.config/composer/vendor/bin
+
+### Instalando Statamic com Documental
+
+statamic new documental-dev rafaelbantu/documental
+
+### Starter kit not found on Statamic Marketplace! Install unlisted starter kit? (yes/no) \[yes]: yes
