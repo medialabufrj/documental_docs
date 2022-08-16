@@ -30,11 +30,15 @@ O site [statamic.dev/installing](https://statamic.dev/installing) lista diversas
 
 ### Instalando Composer
 
-`curl -sS https://getcomposer.org/installer |php sudo mv composer.phar /usr/local/bin/composer`
+`curl -sS https://getcomposer.org/installer |php`&#x20;
+
+`sudo mv composer.phar /usr/local/bin/composer`
 
 ### Instalando Statamic CLI
 
-`composer global require statamic/cli export PATH=${PATH}:~/.config/composer/vendor/bin`
+`composer global require statamic/cli`&#x20;
+
+`export PATH=${PATH}:~/.config/composer/vendor/bin`
 
 ### Instalando Statamic com Documental
 
