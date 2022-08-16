@@ -1,6 +1,6 @@
 # 🔧 Configuração da plataforma
 
-Statamic é um sistema gerenciador de conteúdos que pode funcionar sem um banco de dados, armazenando as informações em arquivos estáticos (_flat-file CMS_). Ele é construído como um pacote do [Laravel](https://laravel.com/), um famoso framework PHP.
+Statamic é um sistema gerenciador de conteúdos que pode funcionar sem um banco de dados, armazenando as informações em arquivos estáticos (_flat-file CMS_). Ele é construído como um pacote do [Laravel](https://laravel.com/), um famoso framework PHP. O Documental por sua vez é um ["starter kit" para o Statamic](https://statamic.dev/starter-kits).
 
 ## Requisitos do Statamic
 
@@ -8,17 +8,7 @@ O Statamic 3 requer um servidor com PHP `>= 7.4.x`. A recomendação oficial é 
 
 Se você for configurar sua própria instância sem Docker, também é necessário instalar alguns pacotes extras o GD Library ou ImageMagick, além das seguintes extensões: BCMath, Ctype, Exif, JSON, Mbstring, OpenSSL, PDO, Tokenizer, XML.&#x20;
 
-Em um servidor Ubuntu, basta rodar o seguinte comando, [refenciado na documentação](https://statamic.dev/installing/ubuntu#install-php-amp-required-modules):
-
-```
-sudo apt install -y php-common php-fpm php-json php-mbstring zip unzip php-zip php-cli php-xml php-tokenizer 
-```
-
-Consulte também as instruções para instalação do [Composer](https://getcomposer.org/), gerenciador de dependências do PHP.
-
-
-
-## Configurando um servidor&#x20;
+Consulte também as instruções para instalação do [Composer](https://getcomposer.org/), gerenciador de dependências do PHP, se necessário.
 
 Se você pretende disponibilizar a plataforma publicamente, além de um domínio na Internet, você vai precisar de um servidor. A melhor solução para o Statamic é contratar um servidor virtual privado (VPS) e a documentação oficial indica alguns serviços que facilitam o processo de _deploy_ de uma nova instância do Statamic, como o [Laravel Forge](https://forge.laravel.com/), o [Ploi.io](https://ploi.io/) ou o [ServerPilot](https://serverpilot.io/).
 
@@ -26,24 +16,26 @@ O site [statamic.dev/installing](https://statamic.dev/installing) lista diversas
 
 
 
-
-
-## Instalando Documental em Ubuntu 20.04
+## Instalando o Documental no Ubuntu 20.04
 
 ### Instalando dependências (PHP 8.1 e utilitários)
 
-sudo apt install software-properties-common sudo add-apt-repository ppa:ondrej/php sudo apt-get install php8.1-mbstring php8.1-xml php8.1-gd php8.1 unzip php8.1-curl sudo update-alternatives --set php /usr/bin/php8.1
+`sudo apt install software-properties-common`&#x20;
+
+`sudo add-apt-repository ppa:ondrej/php`&#x20;
+
+`sudo apt-get install php8.1-mbstring php8.1-xml php8.1-gd php8.1 unzip php8.1-curl`&#x20;
+
+`sudo update-alternatives --set php /usr/bin/php8.1`
 
 ### Instalando Composer
 
-curl -sS https://getcomposer.org/installer |php sudo mv composer.phar /usr/local/bin/composer
+`curl -sS https://getcomposer.org/installer |php sudo mv composer.phar /usr/local/bin/composer`
 
 ### Instalando Statamic CLI
 
-composer global require statamic/cli export PATH=${PATH}:\~/.config/composer/vendor/bin
+`composer global require statamic/cli export PATH=${PATH}:~/.config/composer/vendor/bin`
 
 ### Instalando Statamic com Documental
 
-statamic new documental-dev rafaelbantu/documental
-
-### Starter kit not found on Statamic Marketplace! Install unlisted starter kit? (yes/no) \[yes]: yes
+`statamic new documental-dev rafaelbantu/documental`
