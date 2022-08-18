@@ -44,21 +44,23 @@ Você pode usar uma solução de virtualização como o [Multipass](https://mult
 
 ### Instalando Statamic com Documental
 
-`statamic new documental-dev rafaelbantu/documental`
+`statamic new documental-dev medialabufrj/documentalxyz`
 
 Durante o processo de instalação, selecione a opção padrão ("yes") ao visualizar a pergunta:
 
-**Starter kit not found on Statamic Marketplace! Install unlisted starter kit? (yes/no) \[yes]**
+**`Starter kit not found on Statamic Marketplace! Install unlisted starter kit? (yes/no) [yes]`**
 
-No final do processo de instalação, criei seu usuário e senha como poderes de administração no site recém configurado.
+No final do processo de instalação, crie seu usuário e senha como poderes de administração no site recém configurado.
 
-Se tudo correu bem, você deve ver a seguinte mensagem no final: **"\[✔] Statamic has been successfully installed into the documental-dev directory."**
+Se tudo correu bem, você deve ver a mensagem abaixo no final.
+
+**`"[✔] Statamic has been successfully installed into the documental-dev directory."`**
 
 ### **Instanciando o Documental**&#x20;
 
 Depois da instalação, entre no diretório recém-criado (_documental-dev_) e rode o seguinte comando:
 
-_php artisan serve_&#x20;
+_`php artisan serve`_&#x20;
 
 Se você está usando o Multipass, adicione o parâmetro _`--host=[ip]`_ onde \[IP] é o endereço da máquina virtual (confira rodando fora da máquina virtual o comando `multipass list`).
 
