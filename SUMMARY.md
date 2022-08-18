@@ -7,5 +7,5 @@
 * [🖱️Técnicas de scrollytelling](tecnicas-de-scrollytelling.md)
 * [⚪ Métodos de scrollytelling](metodos-de-scrollytelling.md)
 * [🤝 Como colaborar?](como-colaborar.md)
-* [📚 Recursos úteis](recursos-uteis.md)
+* [📚 Referências e recursos](recursos-uteis.md)
 * [👥 Equipe](equipe.md)
