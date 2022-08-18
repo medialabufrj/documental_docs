@@ -8,3 +8,4 @@
 * [⚪ Métodos de scrollytelling](metodos-de-scrollytelling.md)
 * [🤝 Como colaborar?](como-colaborar.md)
 * [📚 Recursos úteis](recursos-uteis.md)
+* [👥 Equipe](equipe.md)

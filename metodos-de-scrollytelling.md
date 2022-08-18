@@ -36,15 +36,15 @@ Por outro lado, um mapa base vetorial abstrai qualquer informação visual desne
 
 #### Aproximar ou afastar (Zoom in/out)
 
-O movimento de aproximar ou afastar a visão sobre o mapa ajuda as narrativas a alternarem entre uma dimensão "macro" (uma visão mais ampla para situar geograficamente o leitor ou um mapa cloroplético, por exemplo) e "micro" (pontos no mapa relacionados a fotos ou uma subdivisão fronteiriça como os municípios dentro de um estado). O movimento de "zoom in" pode ser uma estratégia para abordar algo mais específico depois de tratar questões mais gerais (dedução), enquanto o contrário "zoom out" permite generalizar (indução) ou contrapor uma experiência em específica com uma visão mais ampla.
+O movimento de aproximar ou afastar a visão sobre o mapa ajuda as narrativas a alternarem entre uma dimensão "macro" (uma visão mais ampla para situar geograficamente o leitor ou um mapa cloroplético, por exemplo) e "micro" (pontos no mapa relacionados a fotos ou uma subdivisão fronteiriça como os municípios dentro de um estado). O movimento de "zoom in" pode ser uma estratégia para abordar algo mais específico depois de tratar questões mais gerais (dedução), enquanto o contrário "zoom out" permite generalizar (indução) ou contrapor uma experiência em específica com uma visão mais ampla. Este efeito é obtido criando dois ou map '_map blocks_' onde o sucessor tem um valor de "_zoom_" diferente (maior ou menor para _zoom in_ ou _zoom out_, respectivamente) que o anterior.
 
 #### Panorâmica (panning)
 
-Este movimento permite "passear" por um mapa. É útil para detalhar trajetórias ou tratar de uma sequência de acontecimentos/localizações relevantes para a narrativa.
+Este movimento permite "passear" por um mapa. É útil para detalhar trajetórias ou tratar de uma sequência de acontecimentos/localizações relevantes para a narrativa. Este movimento pode ser alcançado usando differentes coordenadas geográficas para latitude e longitude em diferentes '_map blocks'._
 
 #### Bearing e pitching
 
-O [Mapbox oferece opções de controle de câmera](https://docs.mapbox.com/mapbox-gl-js/example/set-perspective/) que permitem também ajustar a altura e posição da perspectiva do mapa. Este recurso dá a impressão de uma navegação em 3 dimensões e é útil para buscar reproduzir uma determinada visão (como a de uma foto) no mapa, por exemplo.
+O [Mapbox oferece opções de controle de câmera](https://docs.mapbox.com/mapbox-gl-js/example/set-perspective/) que permitem também ajustar a altura e posição da perspectiva do mapa. Este recurso dá a impressão de uma navegação em 3 dimensões e é útil para buscar reproduzir uma determinada perspectiva/visão (como a de uma foto) no mapa, por exemplo.
 
 #### Sobreposição de imagens
 
