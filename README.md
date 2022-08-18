@@ -6,9 +6,11 @@ description: Documentação técnica da plataforma Documental.xyz.
 
 [Documental.xyz](https://documental.xyz) é uma plataforma web para narrativas baseadas em mapas, que faz uso de recursos de _scrollytelling (interações a partir da rolagem de página)_ para navegação em dados geográficos.
 
-A ferramenta foi construída integrando recursos do sistema de publicação [Statamic](https://statamic.com) com o serviço de mapas online [Mapbox](https://mapbox.com). O primeiro é um sistema gerenciador de conteúdo (CMS) construído como um pacote do [Laravel](https://laravel.com/), um _framework_ da linguagem PHP.
+A ferramenta foi construída integrando recursos do sistema de publicação [Statamic](https://statamic.com) com o serviço de mapas online [Mapbox](https://mapbox.com). O primeiro é um sistema gerenciador de conteúdo (CMS) construído como um pacote do Laravel, um framework da linguagem PHP.
 
-Ambos os serviços adotam um modelo _freemium_, onde é possível usufruir certas soluções com uma conta gratuita, mas é preciso assinar um serviço pago para obter recursos mais avançados. Utilizando tais recursos gratuitos ou de código aberto, qualquer pessoa pode também configurar uma instância simples da plataforma Documental.
+![](.gitbook/assets/stack\_docxyz.png)
+
+Ambos os serviços adotam um modelo _freemium_, onde é possível usufruir de recursos básicos com uma conta gratuita, mas é preciso assinar um serviço pago para obter recursos mais avançados. Utilizando tais recursos gratuitos ou de código aberto, qualquer pessoa pode também configurar uma instância simples da plataforma Documental.
 
 Nesta documentação, veremos como é possível configurar uma instância do site “do zero” e como publicar seus primeiros mapas.
 
@@ -28,16 +30,30 @@ Para mais informações sobre os recursos pagos, confira as respectivas páginas
 
 ### Para quem esta documentação se destina?
 
-Qualquer pessoa interessada pode ler a documentação sobre a ferramenta, porém, para implementar uma instância da plataforma "do zero" e publicar uma história usando os recursos do Documental, é recomendável que uma ou mais pessoas tenham conhecimentos técnicos sobre os seguintes temas:
+Qualquer pessoa interessada pode ler a documentação sobre a ferramenta, porém, para implementar uma instância da plataforma "do zero", é recomendável conhecimentos técnicos sobre os seguintes temas:
 
 * Noções básicas sobre a manipulação de dados geográficos;
 * Configuração de servidores na web;
 * Familiaridade com desenvolvimento para web e tecnologias de front-end (HTML, CSS, JavaScript);
 
-### Como creditar o projeto?
+### Créditos
 
-Solicitamos que projetos que façam uso da plataforma incluam a seguinte menção ao projeto, como forma de apoiar o desenvolvimento da plataforma:
+Solicitamos que projetos que façam uso da plataforma incluam uma menção ao projeto, como forma de apoiar o desenvolvimento da plataforma.
 
-`Este site foi desenvolvido baseado no` [`Documental.xyz`](https://documental.xyz)`.`
+**Coordenação**
+
+[Agência Autônoma](https://autonoma.xyz)
+
+[Medialab/UFRJ](https://medialabufrj.net)
+
+#### Desenvolvimento de software
+
+[Marlus Araújo](https://github.com/sulram) (versão inicial)
+
+Rafael Bantu (atualização e publicação do add-on e tema)
+
+#### Documentação
+
+[Adriano Belisario](https://github.com/belisards)
 
 ****
