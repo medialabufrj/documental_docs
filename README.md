@@ -38,6 +38,6 @@ Qualquer pessoa interessada pode ler a documentação sobre a ferramenta, porém
 
 Solicitamos que projetos que façam uso da plataforma incluam a seguinte menção ao projeto, como forma de apoiar o desenvolvimento da plataforma:
 
-`Este site foi desenvolvido baseado no` [`Documental.xyz`](https://documental.xyz)`.`
+`powered by` [`Documental.xyz`](https://documental.xyz)`.`
 
 ****
