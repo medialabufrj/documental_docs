@@ -18,4 +18,4 @@ Caso queira compartilhar novas sugestões ou comentários em geral sobre a plata
 
 Solicitamos que projetos que façam uso da plataforma incluam a seguinte menção ao projeto, como forma de apoiar o desenvolvimento da plataforma:
 
-`powered by` [`Documental.xyz`](https://documental.xyz)`.`
+`powered by` [`Documental`](https://documental.xyz)
