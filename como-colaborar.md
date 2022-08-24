@@ -1,12 +1,14 @@
 # Como colaborar?
 
-Para colaborar com o projeto, utilize nosso repositório no Github.
+Para colaborar com o código do Documental, use o seguinte repositório no Github: [https://github.com/medialabufrj/documentalxyz](https://github.com/medialabufrj/documentalxyz)
 
-Caso tenha uma sugestão de melhoria no código, use a função de _pull request_.
+Para colaborar ou aperfeiçoar nossas documentação, use o repositório: [https://github.com/medialabufrj/documental\_docs/](https://github.com/medialabufrj/documental\_docs/)
+
+Caso tenha uma sugestão de melhoria no código ou em nossa documentação, use a função de _pull request_ para enviar sua proposta de melhoria.
 
 Abaixo, encontra-se uma lista de funcionalidades futuras desejáveis:
 
-* Melhorar a interface para inseção das coordenadas geográficas;&#x20;
+* Melhorar a interface para inserção das coordenadas geográficas;&#x20;
 * Estudar implementações de alternativas _open source_ ao Mapbox;
 * Migrar o framework do tema para Bootstrap;
 
