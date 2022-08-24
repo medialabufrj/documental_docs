@@ -1,4 +1,4 @@
-# 📝 Publicando uma história
+# Publicando uma história
 
 Para publicar uma história, selecione a opção `Stories` e, em seguida, o botão `Create entry` na sua instalação. Repare que serão exibidas duas abas: `Content` and `Mapbox`. Na primeira, iremos inserir o conteúdo da página propriamente dito e, na segunda, fazemos a integração com o Mapbox. Iremos começar por esta última.
 
@@ -52,10 +52,20 @@ Na visualização, os vídeos aparecem centralizados, ocupando toda largura da t
 
 ### Map Blocks
 
+Os blocos de mapas ("map blocks") são a essência da construção de narrativas baseadas em mapas no Documental. Além das informações latitude/longitude e de um bloco de texto a ser exibido sobre o mapa, é possível ainda configurar outras opções.
+
 ![](.gitbook/assets/mapblocks.png)
 
-* Duration:
-* Zoom:
-* Bearing:
-* Pitch:
+* Duration: duração da transição entre os blocos, em milissegundos;
+* Zoom: nível de zoom do mapa;
+* [Bearing](https://docs.mapbox.com/help/glossary/bearing/): este campo permite rotacionar o mapa. Se o valor dele for 0, significa que o mapa ficará visualizado com o norte "para cima". Os valores 90, 180 e 270 representam o leste, sul e oeste, respectivamente.&#x20;
+* Pitch: permite definir uma "inclinação" da câmera;
+
+#### Layers
+
+Na seção 'Layers', listamos os dados geográficos do Mapbox que devem ser exibidos. Também é possível fazer filtros para que apenas determinadas feições (features) dos dados apareçam.
+
+#### Labels
+
+Permite definir rótulos explicativos para os dados, como legendas descritivas para visualizações de dados.
 
