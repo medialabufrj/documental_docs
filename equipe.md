@@ -1,8 +1,8 @@
 ---
-description: Pessoas e organizações colaboradoras.
+description: Pessoas e organizações responsáveis pelo Documental.xyz.
 ---
 
-# Equipe
+# 👥 Equipe
 
 ## Equipe
 
