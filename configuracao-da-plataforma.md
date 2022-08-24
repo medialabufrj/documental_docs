@@ -8,6 +8,12 @@ O Statamic 3 requer um servidor com PHP `>= 7.4.x`. A recomendação oficial é 
 
 Se você for configurar sua própria instância sem Docker, também é necessário instalar alguns pacotes extras o GD Library ou ImageMagick, além das seguintes extensões: BCMath, Ctype, Exif, JSON, Mbstring, OpenSSL, PDO, Tokenizer, XML.&#x20;
 
+Em um servidor Ubuntu, basta rodar o seguinte comando, [refenciado na documentação](https://statamic.dev/installing/ubuntu#install-php-amp-required-modules):
+
+```
+sudo apt install php-common php-fpm php-json php-mbstring zip unzip php-zip php-cli php-xml php-tokenizer 
+```
+
 Consulte também as instruções para instalação do [Composer](https://getcomposer.org/), gerenciador de dependências do PHP, se necessário.
 
 Se você pretende disponibilizar a plataforma publicamente, além de um domínio na Internet, você vai precisar de um servidor. A melhor solução para o Statamic é contratar um servidor virtual privado (VPS) e a documentação oficial indica alguns serviços que facilitam o processo de _deploy_ de uma nova instância do Statamic, como o [Laravel Forge](https://forge.laravel.com/), o [Ploi.io](https://ploi.io/) ou o [ServerPilot](https://serverpilot.io/).
@@ -66,14 +72,19 @@ Se você está usando o Multipass, adicione o parâmetro _`--host=[ip]`_ onde \[
 
 Finalmente, acesse o navegador usando a URL com IP e a porta 8000, por exemplo:
 
-{% embed url="http://10.49.22.64:8000" %}
+`http://10.49.22.64:8000`
 
-{% embed url="http://127.0.0.1:8000" %}
+`http://127.0.0.1:8000`
 
 Para acessar o painel de administração acesse o subdiretório **/cp** e insira as credenciais adequadas.
 
-### **Customizando o Documental**&#x20;
+### **Estrutura de diretórios**&#x20;
 
-* Blueprints
-* Layouts
-* Stories
+Para customizar sua instalação, será necessário alterar os arquivos nas pastas `public` e `resources`. Tenha atenção em especial aos seguintes subdiretórios:
+
+* `public/assets/main`: localização dos arquivos enviados via upload;
+* `public/css` e `public/js`: estilo e funcionalidades JavaScript do tema;
+* `resources/blueprints/collections/stories`: estrutura do formulário para entrada de da dados ([blueprints](https://statamic.dev/blueprints)) das histórias;
+* `resources/views`: modelo de página (template) feito com base em [Antlers](https://statamic.dev/antlers)
+
+
