@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Documental](README.md)
+* [Documental.xyz](README.md)
 * [Configuração da plataforma](configuracao-da-plataforma.md)
 * [Organizando os geodados no Mapbox](organizando-os-geodados-no-mapbox.md)
 * [Publicando uma história](publicando-uma-historia.md)
